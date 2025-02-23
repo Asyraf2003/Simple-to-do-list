@@ -32,6 +32,55 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Cara Menggunakan Project
+
+### Langkah-langkah untuk Memulai
+
+1. **Unduh File Zip**
+   - Kunjungi halaman repository di GitHub.
+   - Klik tombol "Code" dan pilih "Download ZIP".
+
+2. **Ekstrak File Zip**
+   - Setelah unduhan selesai, ekstrak file zip ke lokasi yang Anda inginkan di komputer Anda.
+
+3. **Buka Project di Visual Studio Code**
+   - Buka aplikasi Visual Studio Code.
+   - Klik "File" > "Open Folder" dan pilih folder yang baru saja diekstrak.
+
+4. **Buat File .env**
+   - Salin file `.env.example` dan ganti namanya menjadi `.env`.
+   - Buka file `.env` dan lakukan konfigurasi sesuai dengan kebutuhan Anda, termasuk pengaturan database.
+
+5. **Instal Dependencies**
+   - Buka terminal di Visual Studio Code.
+   - Jalankan perintah berikut untuk menginstal dependencies:
+     ```sh
+     composer install
+     npm install
+     npm run dev
+     ```
+
+6. **Generate Application Key**
+   - Masih di terminal, jalankan perintah berikut untuk menghasilkan application key:
+     ```sh
+     php artisan key:generate
+     ```
+
+7. **Migrasi Database**
+   - Jalankan perintah berikut untuk migrasi database:
+     ```sh
+     php artisan migrate
+     ```
+
+8. **Jalankan Aplikasi**
+   - Terakhir, jalankan server aplikasi dengan perintah:
+     ```sh
+     php artisan serve
+     ```
+   - Aplikasi Anda sekarang akan berjalan di `http://localhost:8000`.
+
+Ikuti langkah-langkah di atas untuk memulai menggunakan project ini. Jika Anda menghadapi kendala atau memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami!
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
@@ -67,3 +116,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
